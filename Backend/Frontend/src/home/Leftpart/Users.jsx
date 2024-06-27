@@ -1,7 +1,6 @@
 import React from 'react'
 import User1 from './User1'
 import userGetAllUsers from '../../context/userGetAllUsers'
-import User from '../../../../Backend/models/user.modal';
 
 function Users() {
   const [allUsers,loading]=userGetAllUsers();
@@ -15,7 +14,7 @@ function Users() {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default Users
+export default Users;
